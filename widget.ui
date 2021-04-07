@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>967</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>850</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1280</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>原始图像</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>840</y>
+     <width>1011</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>850</y>
+     <width>121</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>结束</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>on_pushButton_1_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1213</x>
+     <y>633</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1069</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>button2_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1193</x>
+     <y>730</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1005</x>
+     <y>714</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>on_pushButton_1_clicked()</slot>
+  <slot>button2_clicked()</slot>
+ </slots>
+</ui>

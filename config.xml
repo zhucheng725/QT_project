@@ -1,0 +1,11 @@
+<?xml version="1.0"?>  
+<ROI_tl>320</ROI_tl>
+<ROI_br>260</ROI_br>
+<ROI_Width>110</ROI_Width>
+<ROI_Height>80</ROI_Height>
+<DetectPoint>5</DetectPoint>
+<circle_max_area>100</circle_max_area>
+<circle_min_area>0</circle_min_area>
+<circle_max_length>50</circle_max_length>
+<circle_min_length>10</circle_min_length>
+
